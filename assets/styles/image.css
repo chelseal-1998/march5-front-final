@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row1 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row1,
+.row1 > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.col {
+  float: left;
+  width: 18.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content1 {
+  background-color: white;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.img-btn {
+  border: none;
+  outline: none;
+  padding: 13px 17px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+}
+
+/* Add a grey background color on mouse-over */
+.img-btn:hover:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.9);
+  scale: 1.1;
+}
+
+/* Add a dark background color to the active button */
+.img-btn.active {
+  color: white;
+  font-size: 17px;
+}
+
+#myBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}

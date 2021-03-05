@@ -1,0 +1,96 @@
+body {
+  background: #e0e0e0;
+}
+.content {
+  min-height: 85vh;
+  display: flex;
+  margin: auto 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.content > div {
+  width: 44%;
+  margin: 3%;
+  border-radius: 6px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.para {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 60vh; */
+}
+
+.all button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+img {
+  height: 300px;
+  object-fit: cover;
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* 
+img:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.7);
+} */
+
+.button {
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.all button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.all button:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.9);
+  scale: 1.1;
+  color: tan;
+  font-size: 16px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.content-2 {
+  min-height: 85vh;
+  display: flex;
+  margin: auto 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.content-2 > div {
+  width: 44%;
+  margin: 3%;
+  border-radius: 6px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  padding: 10px;
+}
